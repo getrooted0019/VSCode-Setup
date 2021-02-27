@@ -1,0 +1,77 @@
+{
+    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ff4747",
+        "editorCursor.background": "#000000",
+        "terminalCursor.foreground": "#ff4747",
+
+        // Tabs config.
+        "tab.activeBorder": "#80c6ff",
+        "tab.activeBorderTop": "#81c6ff",
+        "tab.border": "#81c6ff",
+        "tab.lastPinnedBorder": "#ff6c5c",
+
+        // Editor linen number config.
+        "editorLineNumber.foreground": "#b4b3b3",
+        "editorLineNumber.activeForeground": "#ff4748"
+    },
+
+    // Font Setup.
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 25,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+
+    // Cursor Setup.
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+
+    // Terminal Setup.
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.cursorStyle": "block",
+
+    // Editor Setup.
+    "editor.renderWhitespace": "selection",
+    "editor.snippetSuggestions": "top",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.minimap.showSlider": "always",
+    "editor.autoIndent": "full",
+    "editor.renderLineHighlight": "all",
+    "editor.roundedSelection": true,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.glyphMargin": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    // Vim
+    "vim.easymotion": true,
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+        }],
+    "vim.useSystemClipboard": true,
+
+
+    // Telemetry
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+    // Other.
+    "prettier.eslintIntegration": true,
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": true,
+    "git.autofetch": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.codeActionsOnSave": null,
+    "editor.minimap.enabled": false,
+}
