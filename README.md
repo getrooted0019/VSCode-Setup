@@ -20,8 +20,8 @@ My personal visual studio code setup.
 
 ## How to replicate this setup :
 1. Copy then settings.json file from this repository to: <br>
-    **Windows** %APPDATA%\Code\User\settings.json<br>
-    **macOS** $HOME/Library/Application Support/Code/User/settings.json<br>
-    **Linux** $HOME/.config/Code/User/settings.json<br>
+    **Windows** `%APPDATA%\Code\User\settings.json<br>`
+    **macOS** `$HOME/Library/Application Support/Code/User/settings.json<br>`
+    **Linux** `$HOME/.config/Code/User/settings.json<br>`
 2. Then install the theme and icon theme.
 3. (Optional) install the extensions.
