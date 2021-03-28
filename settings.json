@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.closeEmptyGroups": false,
@@ -16,7 +16,10 @@
 
         // Editor linen number config.
         "editorLineNumber.foreground": "#b4b3b3",
-        "editorLineNumber.activeForeground": "#ff4748"
+        "editorLineNumber.activeForeground": "#ff4748",
+        "editor.cursorSmoothCaretAnimation": true,
+        "editor.cursorBlinking": "smooth"
+
     },
 
     // Font Setup.
@@ -72,6 +75,14 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "editor.codeActionsOnSave": null,
     "editor.minimap.enabled": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
