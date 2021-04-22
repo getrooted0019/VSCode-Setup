@@ -4,7 +4,7 @@ My personal visual studio code setup.
 ![Alt text](Screenshots/Screenshot.png "How my setup looks like :")
 
 ## Theme :
-[Deepdark material theme | Full Black Version.](https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material)<br>
+[Gruvbox Theme](https://github.com/jdinhify/vscode-theme-gruvboxl)<br>
 
 ## Icon theme :
 [Material icon theme.](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)<br>
