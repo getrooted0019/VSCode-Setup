@@ -9,6 +9,9 @@ My personal visual studio code setup.
 ## Icon theme :
 [Material icon theme.](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)<br>
 
+## Font :
+[Fira Code](https://github.com/tonsky/FiraCode)<br>
+
 ## Extensions :
 1. [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)<br>
 2. [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)<br>
@@ -23,5 +26,6 @@ My personal visual studio code setup.
     **Windows** `%APPDATA%\Code\User\settings.json`<br>
     **macOS** `$HOME/Library/Application Support/Code/User/settings.json`<br>
     **Linux** `$HOME/.config/Code/User/settings.json`<br>
-2. Then install the theme and icon theme.
-3. (Optional) install the extensions.
+2. Download & install fira code font from [here](https://github.com/tonsky/FiraCode/releases)
+3. Then install the theme and icon theme.
+4. (Optional) install the extensions.
