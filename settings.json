@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.editor.closeEmptyGroups": false,
@@ -22,10 +21,10 @@
     },
 
     // Font Setup.
-    "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 16,
+    "editor.fontFamily": "Fantasque Sans Mono",
+    "editor.fontSize": 17,
     "editor.lineHeight": 25,
-    "editor.letterSpacing": 0.5,
+    "editor.letterSpacing": 0.4,
     "editor.fontWeight": "400",
     "editor.fontLigatures": true,
 
@@ -34,7 +33,7 @@
     "editor.cursorBlinking": "solid",
 
     // Terminal Setup.
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "FiraCode NF",
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.cursorStyle": "block",
 
@@ -62,32 +61,36 @@
         }],
     "vim.useSystemClipboard": true,
 
-
     // Telemetry
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
 
     // Other.
-    "prettier.eslintIntegration": true,
     "eslint.run": "onType",
-    "eslint.autoFixOnSave": true,
     "git.autofetch": true,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "editor.minimap.enabled": false,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
     },
-    "editor.codeActionsOnSave": null,
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
     },
     "editor.largeFileOptimizations": false,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
 }
