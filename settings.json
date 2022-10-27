@@ -87,10 +87,4 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": true,
-        "markdown": false
-    },
 }
