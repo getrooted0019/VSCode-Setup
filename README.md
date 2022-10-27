@@ -3,9 +3,6 @@ My personal visual studio code setup.
 
 ![Alt text](Screenshots/Screenshot.png "How my setup looks like :")
 
-## Theme :
-[Gruvbox Theme](https://github.com/jdinhify/vscode-theme-gruvboxl)<br>
-
 ## Icon theme :
 [Material icon theme.](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)<br>
 
