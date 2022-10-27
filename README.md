@@ -6,8 +6,9 @@ My personal visual studio code setup.
 ## Icon theme :
 [Material icon theme.](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)<br>
 
-## Font :
-[Fira Code](https://github.com/tonsky/FiraCode)<br>
+## Fonts :
+[Terminal (Fira Code)](https://github.com/tonsky/FiraCode)<br>
+[Editor (Fantasque Sans Mono)](https://github.com/belluzj/fantasque-sans)<br>
 
 ## Extensions :
 1. [Vim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)<br>
